@@ -112,4 +112,7 @@ input {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.56), transparent), url("../img/asset.jpg");
     position: relative;
     overlay: auto;
+    
+    transition: width .3s;
+    transition-timing-function: ease;
 }
